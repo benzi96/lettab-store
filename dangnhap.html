@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LETTAB</title>
+        <link rel="stylesheet" href="web3.css">
+        <link rel="shortcut icon" href="image/favicon1"/>
+    </head>
+    <body>
+       <nav>
+          <a href="index.html" class="logo"><img src="image/logo.png" class="logoimg"></a>
+            <div class="menu">
+                <div class="menu-right">
+                    <table>
+                        <tr>
+                        <form name="dangnhap" action="admin/admin.html" method="post">
+                        <td><font color="#dedcdc">Tài khoản: </font><input type="text" value="" size="13"></td>    
+                        <td><font color="#dedcdc">Mật khẩu: </font><input type="password" value="" size="13"></td>
+                        <td><input type="submit" name="" value="Đăng nhập"></td>
+                        </form>
+                    
+                        <td><input type="button" name="" value="Đăng kí" onclick="location.href='dangki.html'" style="width:80px;">                           </td>  
+                        <td><a href="dangnhap.html"><img src="image/giohang.png" alt="giỏ hàng"></a></td>
+                        </tr>
+                    </table>  
+                </div>
+                <div class="search">
+                    <form name="timkiem" action="timkiem.html" method="get">
+                    <div class="search-left">
+                        <input type="search" class="searchinput"  placeholder="Tìm kiếm smartphone..">
+                    </div>
+                    <div class="search-right">
+                       <input type="submit"  value="Tìm kiếm" class="searchsubmit">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="banner">
+                <img src="image/bg.png">
+                <div class="banner-right">
+                    <image class ="Lettab" src ="image/Lettab.png"/>
+				    <p align ="center" class ="slogan"><em>Chạm để cảm nhận</em> </p>
+                </div>
+            </div>  
+        </header>
+        <hr>
+        <div class="content-dangnhap">
+              <div class="content-dangnhap-center">
+                  <table align="center">
+                      <tr>
+                        <td colspan="2"><strong><font color="red">Bạn chưa đăng nhập!<br>Hãy đăng nhập để sử dụng giỏ hàng</font></strong></td>
+                      </tr>
+                    <form name="dangnhap1" action="giohang.html" method="post">
+                    <tr>
+                     <td align="right">Tên đăng nhập:</td>
+                     <td align="left"><input type="text" value=""></td>
+                    </tr>
+                    <tr>
+                      <td align="right">Mật khẩu:</td>
+                      <td align="left"><input type="password" value="" maxlength=15 size=20></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2"><input type="submit" value="Đăng nhập"></td>
+                    </tr>
+                      </form>
+                  </table>
+              </div>
+            </div>
+        <hr size="5px" class="hr1">
+        <footer class="footerdangnhap">
+            <div class="chiase">
+         <a><img src="image/facebook.png" class ="iconbn"></a>
+             <a><img src="image/instagram.png" class ="iconbn"></a>
+			<a><img src="image/twitter.png" class ="iconbn"></a>
+            <p class="ketthuc">Bản quyền &copy; 2015: Nhóm C06 (Hoạt động tốt trên Google Chrome)</p>
+            <p class="ketthuc">Được tạo ra bởi: Nhóm C06 Nguyễn Anh Hào, Vũ Huy Khánh và Dư Bính Khôn</p> 
+            </div> 
+        </footer>
+    </body>
+</html>

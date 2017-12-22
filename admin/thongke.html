@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LETTAB</title>
+        <link rel="stylesheet" href="admin.css">
+    </head>
+    <body>
+        <header>
+            <div class="adminimg"><a href="admin.html"><img src="../image/admin.png" height="110px" width="110px"></a></div>
+            <div class="admin"><a href="admin.html">Quản lý</a></div>
+			 <a href="../index.html"><div class = "logoimage"> <img src="../image/logo.png" class="logoimg"></div></a>
+        </header>
+         <div class="content">
+            <div class="content-left"> 
+               
+                <a href="themsanpham.html"><div style="border-top:2px solid white;" >Thêm sản phẩm</div></a>
+                <a href="xoasanpham.html"><div>Xóa sản phẩm</div></a>
+                <a href="suasanpham.html"><div>Sửa sản phẩm</div></a>
+                <a href="quanlidonhang.html"><div>Quản lí đơn hàng</div></a>   
+                <a href="#"><div style="color:black; background-color: #dedcdc;">Thống kê</div></a>
+                <a href="../index.html"><div>Về trang chủ</div></a>
+                <a href="../index.html"><div>Đăng xuất</div></a>   
+            
+            </div>
+             
+            <div class="content-right">
+                <p class="chucnang">Thống kê</p>
+                <form name="themsp" action="ketquathongke.html" method="post" enctype="multipart/form-data">
+                    <p>Chọn hãng</p>
+                    <select class="chinh">
+                        <optgroup>
+                            <option> Tất cả các hãng</option>
+                            <option> Apple</option>
+                             <option>Asus</option>
+                             <option>Dell</option>
+                            <option>Huawei</option>
+                            <option> Lenovo</option>
+							<option>Samsung </option>
+                        </optgroup>
+                    </select>
+                    <p>Khoảng thời gian</p>
+                    <p>Từ</p>
+                    <div class="ngay">
+                        <input class="ngay1" type="number" placeholder="Ngày">
+                        <input class="thang" type="number" placeholder="Tháng">
+                        <input class="nam" type="number" placeholder="Năm">
+                    </div>
+                    <p>Đến</p>
+                    <div class="ngay">
+                        <input class="ngay1" type="number" placeholder="Ngày">
+                        <input class="thang" type="number" placeholder="Tháng">
+                        <input class="nam" type="number" placeholder="Năm">
+                    </div>
+                    <input class="thongke" type="submit" value="Thống kê">
+                </form>
+            </div>
+        </div>
+			 <footer>
+            <div class="chiase">
+              <a><img src="./../image/facebook.png" class ="iconbn"></a>
+             <a><img src="./../image/instagram.png" class ="iconbn"></a>
+			<a><img src="./../image/twitter.png" class ="iconbn"></a>
+            <p class="ketthuc">Bản quyền &copy; 2015: Nhóm C06 (Hoạt động tốt trên Google Chrome)</p>
+            <p class="ketthuc">Được tạo ra bởi: Nhóm C06 Nguyễn Anh Hào, Vũ Huy Khánh và Dư Bính Khôn</p> 
+            </div> 
+        </footer>
+    </body>
+</html>

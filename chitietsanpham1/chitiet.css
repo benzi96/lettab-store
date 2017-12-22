@@ -1,0 +1,304 @@
+html{
+    background-color: #e6e9eb;
+}
+nav{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: #474747;
+    width:100%;
+    min-width: 1200px;
+    height:45px;
+    z-index:1;
+}
+.menu{
+    position:absolute;
+    left:200px;
+    min-width: 1000px;
+    max-width: 1200px;
+    width:80%;
+    height: 45px;  
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+.logo{
+    position:absolute;
+    top:2.5px;
+    left:30px;
+    width:140px;
+    height:40px;
+}
+.logoimg{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:140px;
+    height:40px;
+}
+.menu-right{
+    height:45px;
+    width:620px;
+    float:right;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    line-height:30px;
+    width:auto;
+    height:35px;
+    text-align:center;
+    color:#dedcdc;
+}
+a:hover, a:active{
+      opacity: 0.4;
+}
+.search{
+    margin-left: 0px;
+    height:45px;
+    width:370px;
+    float:left;
+    
+}
+.search-left{
+    height:45px;
+    width:300px;
+    float:left; 
+}
+.search-right{
+    height:45px;
+    width:70px;
+    float:left; 
+}
+.searchsubmit{
+    height:27px;
+    width:70px;
+    margin-top: 9px;
+}
+.searchinput{
+    margin-top: 9px;
+    height:27px;
+    width:300px;
+}
+header{
+    position:absolute;
+    top:45px;
+    left:0px;
+    width:100%;
+    min-width: 1200px;
+    height:260px;
+    background-color:#33CCCC;
+}
+.banner{
+    position:absolute;
+    top:10px;
+    left:280px;
+    width:800px;
+    height:230px;
+}
+.banner-right{
+    position:relative;
+    top:10px;
+    right:40px;
+    float:right;
+    width:400px;
+    height:200px;
+    font-family: sans-serif;
+	line-height:3ex;
+}
+.Lettab{
+	position: absolute;
+	width:220px;
+	height:150px;
+	top: 15px;
+	left:100px;
+}
+p.slogan{
+    margin-top: 150px;
+	font-family:Segoe Script;
+	font-size:2em;
+	line-height:3ex;
+	letter-spacing: 1.8px;
+}
+.content{
+    position:absolute;
+    top: 320px;
+    left:0px;
+    min-width:1200px;
+    max-width: 1450px;
+    width:95%;
+    height:980px;
+    z-index: -2;
+}
+.content-left{
+    position:absolute;
+    left:0px;
+    width:210px;
+    height:980px;
+}
+.content-left li{
+   list-style-image: url(../image/arrow.png);
+       margin-top:30px;
+}
+.content-left a{
+    color:black;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+}
+p.hang{
+    font-size: 1.6em;
+    margin-left:10px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-right{
+    position:absolute;
+    left:210px;
+    width:83%;
+    min-width:990px;
+    max-width: 1080px;
+    height:980px;
+    background-color:white;
+}
+.content-right a{
+    color: black;
+}
+p.phanload{
+
+    font-weight: bold;
+    margin-left: 20px;
+    font-size:20px;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.showhang{
+	width:100%;
+    height:480px;
+}
+.hinhminhhoa{
+    width:435px;
+    height:430px;
+    float: left;
+}
+.hinhminhhoaimg{
+    margin-top: 20px;
+    margin-left: 35px;
+    width:400px;
+    height:420px;
+    
+}
+.chitiet{
+    float: right;
+    height: 470px;
+    width: 545px;
+}
+h2{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+p.gia{
+   
+	margin-top:30px;
+	font-family: sans-serif;
+    font-size: 2em;
+	color:red;
+	
+}
+p.ten{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.thongso{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.buttoncontain{
+    position: absolute;
+    bottom: 0px;
+    width:340px;
+    height:35px;
+    
+}
+.cunghang{
+    width: 300px;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3em;
+    margin-top: 80px;
+}
+.mua{
+    position: absolute;
+	top:545px;
+    right:345px;
+    height:50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 3px;
+	background-color:#blue;
+	font-size:1em;
+	border-color: #000000;
+	
+}
+.backtotop{
+    position: fixed;
+    bottom: 170px;
+    right:5px;
+    width:35px;
+    height:35px;
+    z-index:-1;  
+}
+footer{
+    position:absolute;
+    top:1322px;
+    left:0px;
+    background-color: #262626;
+    width:100%;
+    min-width: 1200px;
+    height:150px;
+    color:white;
+}
+.chiase{
+    position: absolute;
+    top:15px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    
+}
+.chiase a{
+    width:50px;
+}
+.hr{
+    position:absolute;
+    left: 0px;
+    top:1311px;
+    width:100%;
+    border-width: 0px;
+    background-color: #00c4b7;
+    min-width: 1200px;
+}
+h3{
+	font-size:1.5em;
+}
+
+.iconbn{
+	height:2em;
+	width:2em;
+}
+.giohangmenu{
+    height:45px;
+    width:297px;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
